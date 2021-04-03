@@ -76,20 +76,7 @@
             text-align: left;
             
         }
-        h1 {
-            font-weight: 300;
-            font-size: 1.875rem;
-            line-height: 1.15;
-            color: $darkBlue;
-            margin-bottom: 1.5rem;
-
-            @include breakpoints-up(large){
-                font-size: $font-xlarge;
-            }
-        }
-        p{
-            line-height: 1.5;
-            margin-bottom: 2.25rem;
-        }
+        
+        
     }
 }
