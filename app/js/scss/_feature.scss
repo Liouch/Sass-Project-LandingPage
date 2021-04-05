@@ -2,21 +2,21 @@
   background-color: $lightGrayishBlue;
   text-align: center;
 
-  @include breakpoint-up(medium){
+  @include breakpoints-up(medium){
     text-align: left;
   }
 
   &__intro {
     margin-bottom: 3.75rem;
 
-    @include breakpoint-up(large){
+    @include breakpoints-up(large){
       width: 60%;
     }
   }
 
   &__grid {
 
-    @include breakpoint-up(medium){
+    @include breakpoints-up(medium){
       display: flex;
       flex-wrap: wrap;     
     }
@@ -25,11 +25,11 @@
   &__item {
     padding: 0.9375rem;
 
-    @include breakpoint-up(medium){
+    @include breakpoints-up(medium){
       flex: 0 0 50%;
     }
 
-    @include breakpoint-up(large){
+    @include breakpoints-up(large){
       flex: 1;
     }
   }
@@ -37,7 +37,7 @@
   &__icon {
     margin-bottom: 1.875rem;
 
-    @include breakpoint-up(large){
+    @include breakpoints-up(large){
       margin-bottom: 2.75rem;
     }    
   }
@@ -49,7 +49,7 @@
     color: $darkBlue;
     margin-bottom: 1rem;
 
-    @include breakpoint-up(large){
+    @include breakpoints-up(large){
       font-size: 1.5rem;
       margin-bottom: 1.5rem;
     }
